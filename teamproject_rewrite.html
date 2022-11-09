@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<script src="C:\software-team20\frontend\teamproject_rewrite.js"></script>
 <html>
     <body>
     <form>
@@ -8,9 +9,8 @@
     <hr>
     시작 날짜: <input type="date" name="first_date"/>    
     마감 날짜: <input type="date" name="last_date"/><br>
-    팀원:<button type="submit">추가</button>
-    <button type="submit">삭제</button>
-    <input type="text"name="person"/><br>
+    팀원:<input type="button" value='추가' onclick='newPage()'></input>
+    <input type="button" value='삭제' onclick='newPage()'></input>
     내용 작성: <textarea cols="30"rows="10"> </textarea>
     <input type="reset"value="취소">
     <button type="submit">전송</button>
