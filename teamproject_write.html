@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
+    <script>
+        function newPage1()  {
+            window.location.href = 'userplus.html'}
+        function newPage2()  {
+            window.location.href = 'teamproject_intro.html'}
+
+    </script>
     <body>
     <form>
         <bodystyle="text-align:left;">
         <form method="get"action="form_app.js">
-         <input type="text" placeholder="프로젝트 이름 작성"/>
-         <input type="button"value="공유하기"><br>
+        <input type="text" placeholder="프로젝트 이름 작성"/>
     <hr>
     시작 날짜: <input type="date" name="first_date"/>    
     마감 날짜: <input type="date" name="last_date"/><br>
-    팀원: <span><a href="userplus.html" >추가</a></span>
-    <input type="text"name="person"/><br>
+    팀원: <input type="text" onclick='newPage1()' name="person"/><br>
     내용 작성: <textarea cols="30"rows="10"> </textarea>
     <input type="reset"value="취소">
-    <button type="submit">전송</button>
+    <input id='전송' type='button' onclick='newPage2()' value='전송'>
 </form> 
     </body>
 
