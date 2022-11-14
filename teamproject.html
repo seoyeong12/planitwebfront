@@ -1,63 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            html{
-                font-family: "Roboto", "Noto Sans KR", sans-serif;
-            }
-            .outer-div {
-                width : 20%;
-                height: 950px;
-                background-color :white;
-                position: absolute;
-                float: left;
-            }
-
-            .inner-div {
-                width : 30px;
-                height: 100%;
-                background-color: #F4E3CC;
-                position: absolute;
-                margin-left: 90px;
-
-            }
-            .cbtn{
-                height: 40px;
-                width: 40px;
-                border-radius: 50%;
-                border: 8px solid #F4E3CC;
-                background-color: #F9EEE4;
-                position: relative;
-                z-index: 1;
-            }
-            
-            p{
-                position: relative;
-            }
-            .divbox{
-                margin-top: 140px;
-                margin-left: 85px;
-                /* margin-bottom: 80px; */
-            }
-            .tbtn{
-                float:right;
-                margin-right: 170px;
-                margin-top: 10px;
-                border: 0ch;
-                font-size: large;
-                background-color: white;
-            }
-            iframe{
-                position: relative;
-                float: right;
-                width: 99.5%;
-                height: 950px;
-                border: 0px;
-                /* margin: 20px; */
-                /* padding-top: 80px; */
-                /* padding-left: 20px; */
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href = "css/teamproject.css">
         <script>
             function ChangeFrame(url){
                 //오른쪽 프레임 변경
@@ -73,19 +17,19 @@
             <div class='inner-div'>
             </div>
             <div class="divbox" onclick="ChangeFrame('./teamproject_intro.html')">
-                <button class="cbtn" id="c1" onclick="btnclick()"></button><button class="tbtn">Project</button>
+                <button class="cbtn" id="c1" onclick="btnclick()"></button><div class="tbtn" id="tbtn1"><span>Project Name</span></div>
             </div>
             <div class="divbox" onclick="ChangeFrame('./proceedings.html')">
-                <button class="cbtn" id="c1" onclick="btnclick()"></button><button class="tbtn">Project</button>
+                <button class="cbtn" id="c1" onclick="btnclick()"></button><div class="tbtn" id="tbtn2"><span>Project</span></div>
             </div>
             <div class="divbox" onclick="ChangeFrame('./kanban.html')">
-                <button class="cbtn" id="c2" onclick="btnclick()"></button><button class="tbtn">Kanban</button>
+                <button class="cbtn" id="c2" onclick="btnclick()"></button><div class="tbtn" id="tbtn3"><span>Kanban</span></div>
             </div>
             <div class="divbox"  onclick="ChangeFrame('./backlog.html')">
-                <button class="cbtn" id="c3" onclick="btnclick()"></button><button class="tbtn">Backlog</button>
+                <button class="cbtn" id="c3" onclick="btnclick()"></button><div class="tbtn" id="tbtn4"><span>Log</span></div>
             </div>
             <div class="divbox"  onclick="ChangeFrame('./meeting.html')">
-                <button class="cbtn" id="c3" onclick="btnclick()"></button><button class="tbtn">Meeting</button>
+                <button class="cbtn" id="c3" onclick="btnclick()"></button><div class="tbtn"><span>Meeting Times</span></div>
             </div>
         </div>
         <iframe src="./meeting.html" scrolling="yes" id="main_frame">

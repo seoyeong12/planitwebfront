@@ -9,8 +9,8 @@ body{
     border:3px solid #9F8473;
     background-color:#F4E3CC ;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 458px;
+    margin-top: 150px;
+    margin-left: 650px;
     margin-bottom: 125px;
 }
 #date{
@@ -26,18 +26,18 @@ body{
 
 #lbox{
     position: absolute;
-    z-index: 3;
+    /* z-index: 3; */
     width: 30px;
-    height: 643.68px;
+    height: 805px;
     border-radius: 20px;
     border: 0px;
-    rotate: 29.86deg;
+    rotate: 45deg;
     background-color: #E5EBB2;
-    margin-left: 230.71px;
-    margin-bottom: 53.83px;
+    margin-left: 318px;
+    margin-top: -80px;
 }
 #makemeeting{
-    position: relative;    
+    position: absolute;    
     z-index: 2;
     width: 206px;
     height: 87px;
@@ -47,47 +47,45 @@ body{
     text-align: center;
     font-size: 46px;
     -webkit-text-stroke: 1px #BCE29E;
-    float: right;
-    margin-right: 500px;
+    margin-left: 1550px;
 }
 span{
     color: #FFFFFF;
 }
 #tbox{
-    position: fixed;
-    width: 900px;
+    position: absolute;
+    width: 1000px;
     height: 30px;
     border-radius: 20px;
     border: 0px;
     background-color: #E5EBB2;;
-    margin-left: 390px;
-    margin-top: 40px;
+    margin-left: 595px;
+    margin-top: 30px;
     float: center;
     margin-bottom: 300px;
 }
 #dbox{
-    position: relative;
-    width: 1075.85px;
+    position: absolute;
+    width: 1495px;
     height: 30px;
     border-radius: 20px;
     border: 0px;
     background-color: #E5EBB2;;
-    margin-left: 200px;
-    margin-top: 515px;
+    margin-left: 175px;
+    margin-top: 450px;
 }
 #rbox{
-    position: relative;
+    position:absolute;
     width: 30px;
-    height: 355px;
+    height: 410px;
     border-radius: 20px;
     border: 0px;
     rotate: 180deg;
-    float: right;
     background-color: #E5EBB2;
     margin-top: 65px;
-    margin-right: -115px;
+    margin-left: 1640px;
 }
-input[id="cb1"] + label{ 
+input[class="cb"] + label{ 
     position: absolute;
     z-index: 1;
 	display: inline-block;
@@ -97,17 +95,102 @@ input[id="cb1"] + label{
 	border: 7px solid #E5EBB2;
     background-color: #FCFFE3;
 	cursor: pointer;
-    margin-top: 30px;
-    margin-left: 575px;
 }
-input[id="cb1"]:checked + label {
+input[class="cb"]:checked + label {
 	background-color: #BCE29E;
 }
-input[id="cb1"] {
+input[class="cb"] {
 	display: none;
 }
-p{
-    margin-top: 90px;
-    margin-left: 575px;
+input[id="cb1"] + label{ 
+    margin-top: 20px;
+    margin-left: 1100px;
+}
+#p1{
+    margin-top: 80px;
+    margin-left: 1100px;
     position: absolute;
 }
+input[id="cb2"] + label{ 
+    margin-top: 20px;
+    margin-left: 850px;
+}
+#p2{
+    margin-top: 80px;
+    margin-left: 850px;
+    position: absolute;
+}
+input[id="cb3"] + label{ 
+    margin-top: 25px;
+    margin-left: 590px;
+}
+#p3{
+    margin-top: 80px;
+    margin-left: 610px;
+    position: absolute;
+}
+input[id="cb4"] + label{ 
+    margin-top: 20px;
+    margin-left: 1350px;
+}
+#p4{
+    margin-top: 80px;
+    margin-left: 1350px;
+    position: absolute;
+}
+input[id="cb5"] + label{ 
+    margin-top: 440px;
+    margin-left: 840px;
+}
+#p5{
+    margin-top: 510px;
+    margin-left: 840px;
+    position: absolute;
+}
+input[id="cb6"] + label{ 
+    margin-top: 440px;
+    margin-left: 570px;
+}
+#p6{
+    margin-top: 510px;
+    margin-left: 570px;
+    position: absolute;
+}
+input[id="cb7"] + label{ 
+    margin-top: 440px;
+    margin-left: 1100px;
+}
+#p7{
+    margin-top: 510px;
+    margin-left: 1100px;
+    position: absolute;
+}
+input[id="cb8"] + label{ 
+    margin-top: 440px;
+    margin-left: 1360px;
+}
+#p8{
+    margin-top: 510px;
+    margin-left: 1360px;
+    position: absolute;
+}
+input[id="cb9"] + label{ 
+    margin-top: 435px;
+    margin-left: 1625px;
+}
+#p9{
+    margin-top: 500px;
+    margin-left: 1630px;
+    position: absolute;
+}
+input[id="cb10"] + label{ 
+    margin-top: 200px;
+    margin-left: 405px;
+}
+#p10{
+    margin-top: 220px;
+    margin-left: 470px;
+    position: absolute;
+}
+
+
