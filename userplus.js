@@ -6,5 +6,21 @@ function input(){
     }
 function output(){
     document.getElementById("output").value = temp;
-    }        
-        
+    }
+
+    const input = document.querySelector('#uplus')
+    const plusButton = document.querySelector('#plus-button')
+    const submitButton = document.querySelector('#submit-button')
+    const userplusList = document.querySelector('#userplus-list')
+    const alert = document.querySelector('span')
+
+    const adduplus=()=>{
+
+
+        plusButton.addEventListener('click',adduplus)
+        input.addEventListener('keypress',(event)=>{
+            const ENTER=13
+            if(event.keycode===ENTER)
+            adduplus();
+        })
+    }

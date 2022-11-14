@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const text = document.createElement('span');
           // 삭제하기 버튼
             const deleteButton = document.createElement('button')
-                deleteButton.textContent="삭제"
-                deleteButton.style.visibility="hidden"
+            deleteButton.textContent="삭제"
+            deleteButton.style.visibility="hidden"
             text.textContent = input.value
             input.value=''
         
