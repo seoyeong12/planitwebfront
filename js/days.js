@@ -10,6 +10,7 @@ var b=function(msg) {alert('message test ' + msg);};
                 columnFormat: 'dddd' // set format for week here
             },
         },
+        
         editable:true,
         selectable:true,
         contentWidth:300,
