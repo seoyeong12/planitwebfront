@@ -3,14 +3,14 @@ html{
 }
 .outer-div {
     width : 20%;
-    height: 1050px;
+    height: 960px;
     background-color :white;
     position: absolute;
     float: left;
 }
 .inner-div {
     width : 30px;
-    height: 100%;
+    height:100%;
     background-color: #F4E3CC;
     position: absolute;
     margin-left: 90px;
@@ -32,12 +32,12 @@ p{
     position: relative;
 }
 .divbox{
-    margin-top: 142px;
+    margin-top: 120px;
     margin-left: 80px;
 }
 .tbtn{
     float:right;
-    margin-right: 145px;
+    margin-right: 100px;
     margin-top: 10px;
     border:0px;
     border-radius: 20px;
@@ -53,18 +53,15 @@ iframe{
     position: relative;
     float: right;
     width: 98%;
-    height: 1000px;
+    height: 960px;
     border: 0px;
 }
 #tbtn1{
     background-color: #FFDFD6;
 }
-#tbtn2{
-    margin-right: 195px;
-}
 #tbtn3{
-    margin-right: 185px;
+    margin-right: 160px;
 }
 #tbtn4{
-    margin-right: 210px;
+    margin-right: 190px;
 }

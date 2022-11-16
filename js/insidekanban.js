@@ -13,6 +13,6 @@ function check(document){
         document.style.color='black';
         //선택 해제
     }
-    document.style.backgroundColor='black';
+    document.style.backgroundColor='#FF8787';
     document.style.color='white';
 }
