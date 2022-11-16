@@ -1,3 +1,15 @@
+body{
+    /* width: 70%;
+    height: 90%; */
+    margin-left: 400px;
+    padding-top: 50px;
+    color: #6B5D54;
+    z-index: 2;
+}
+form{
+    width: 100%;
+    height: 100%;
+}
 #buttondiv{
     display: inline-block;
     width: 188px;
@@ -38,13 +50,6 @@ input.text:focus{
 textarea{
     border: 1px solid black;
     font-size: 24px;
-}
-body{
-    width: 70%;
-    height: 90%;
-    padding-left: 400px;
-    padding-top: 50px;
-    color: #6B5D54;
 }
 #topdiv{
     display: inline-block;

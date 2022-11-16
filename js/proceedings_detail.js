@@ -1,5 +1,5 @@
 function editpage()  {
-    window.location.href = "./proceedings_rewrite.html";
+    document.location.href = "./proceedings_rewrite.html";
 }
 function deletepage(){
 
