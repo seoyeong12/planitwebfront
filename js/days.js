@@ -52,7 +52,6 @@ var b=function(msg) {alert('message test ' + msg);};
             arg.event.remove()
             }
         }
-        
         });
         
         calendar.render();

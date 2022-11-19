@@ -27,9 +27,12 @@ input[type='date']{
     width: 70%;
     background-color: #FAF0E6;
     border: 0px;
+    font-size: 15px;
+    font-weight:600;
+    color: #6B5D54;
 }
 input[type='date']:focus{
-    border:1px solid #6B5D54;
+    outline:0px;
 }
 input.text{
     margin-right: 150px;
@@ -57,7 +60,6 @@ textarea{
     font-weight:600;
     text-align: center;
     filter: drop-shadow(1px 1px 5px #9F8473);
-
 }
 h2{
     font-size: 30px;

@@ -57,7 +57,7 @@ textarea{
     width: 440px;
     height: 249px;
     margin-top: 20px;
-    /*resize: none;*/
+    resize: none;
 }
 button{
     border-radius: 1em;

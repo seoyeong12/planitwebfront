@@ -1,5 +1,4 @@
 body{
-    
     height: 90%;
     margin-left: 450px;
     padding: 85px;
@@ -46,12 +45,20 @@ h2{
     color:#6B5D54;
     filter: drop-shadow(1px 1px 5px #9F8473);
     margin-left: 25px;
+    position: relative;
 }
-#button{
+#savebtn{
+    margin-right:15px;
+}
+#cancelbtn{
+    margin-right:200px;
+}
+#parti{
+    margin-right: 40px;
+}
+.btn{
     width: 65px;
     height: 28px;
-    border-radius: 20px;
-    background-color: #FAF0E6;
     font-size: 10px;
     text-align: center;
     margin-left: 13px;
@@ -61,21 +68,9 @@ h2{
     padding-top: 6px;
     padding-bottom: 6px;
     border: 0px;
-    color: #6B5D54;
-}
-#savebtn{
-    margin-right:15px;
-}
-#cancelbtn{
-    margin-right:200px;
-}
-.btn{
-    width: 63px;
-    height: 28px;
     background-color: #FAF0E6;
     border-radius: 20px;
     border: 1px solid #E8CBB9;
-    font-size: 13px;
     color:#6B5D54;
     filter: drop-shadow(1px 1px 5px #9F8473);
     margin-right: 10px;

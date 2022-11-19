@@ -9,7 +9,7 @@ input{
 .input{
     width: 875px;
     height: 75px;
-    border: 1px solid #DB8F00;
+    border: 1px solid #9F8473;
     font-size: 24px;
     padding-left: 15px;
     padding-top: 23px;
@@ -17,6 +17,9 @@ input{
     box-sizing: border-box;
     margin-left: 500px;
     color:#9F8473;
+}
+.input:focus{
+    outline:1px solid #9F8473;
 }
 .input::placeholder{
     color:#9F8473;
@@ -34,7 +37,7 @@ input{
     height: 75px;
     background-color: #E5EBB2;
     border-radius: 50px;
-    border: 1px solid #DB8F00;
+    border: 1px solid #9F8473;
     font-size: 24px;
     text-align: center;
     color: #7B6659;

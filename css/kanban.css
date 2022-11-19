@@ -53,7 +53,7 @@
         height: 50px;
         border-radius: 10px;
         background-color: #FAF0E6;
-        border-color: #E8CBB9;
+        border: 1.5px solid #E8CBB9;
         margin-top: 24px;
         margin-left:28px ;
     }

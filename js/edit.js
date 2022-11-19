@@ -51,6 +51,4 @@ window.onload = function(){
         self.close();
         //창 닫기
     }
-
-
 }

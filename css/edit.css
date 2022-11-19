@@ -3,11 +3,18 @@ body{
     height: 424px;
     color: #6B5D54;
 }
+input{
+    border-radius: 3px;
+    border: 1px solid #6B5D54;
+}
+input:focus{
+    outline:1px solid #6B5D54;
+}
 #team{
     margin-left: 30px;
 }
 #single,#team{
-    accent-color: #FF8787;
+    accent-color: #BCE29E;
 }
 #teamSelect{
     margin-left: 10px;
@@ -18,7 +25,7 @@ body{
     margin-right: 19px;
 }
 #date{
-    height: 22px;
+    height: 25px;
     width: 125px;
     padding-right: 10px;
     padding-left: 5px;
@@ -28,9 +35,6 @@ body{
 select{
     width: 125px;
     height: 25px;
-}
-select select{
-    margin-top: 10px;
 }
 #sub_btn,#cancel{
     width: 61px;

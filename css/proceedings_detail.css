@@ -4,7 +4,6 @@ body{
     padding-left: 400px;
     padding-top: 50px;
     color: #6B5D54;
-    
 }
 #topdiv{
     display: inline-block;
@@ -16,7 +15,6 @@ body{
     font-weight:600;
     text-align: center;
     filter: drop-shadow(1px 1px 5px #9F8473);
-
 }
 #colorid{
     display: inline-block;
@@ -43,7 +41,6 @@ h2{
     width: 63px;
     height: 28px;
     background-color: #FAF0E6;
-    /* margin-right: 80px; */
     border-radius: 20px;
     border: 1px solid #E8CBB9;
     font-size: 13px;

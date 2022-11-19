@@ -12,18 +12,26 @@ body{
     margin-top: 50px;
     margin-left: 650px;
     margin-bottom: 125px;
+    color: #9F8473;
+    font-weight: bold;
 }
 #date{
     margin-top: 15px;
     width: 207px;
     height: 29px;
-    background-color: #F5F5F5;
-    border-color: #B1B1B1;
+    background-color: #F4E3CC;
+    border: 1px solid #9F8473; 
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
     font-size: 20px;
     margin-right: 20px;
     margin-left: 20px;
+    color: #9F8473;
 }
-
+#date:focus{
+    outline:1.5px solid #9F8473;
+}
 #lbox{
     position: absolute;
     /* z-index: 3; */
@@ -192,5 +200,3 @@ input[id="cb10"] + label{
     margin-left: 470px;
     position: absolute;
 }
-
-
