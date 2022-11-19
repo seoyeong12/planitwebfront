@@ -2,9 +2,6 @@ var b=function(msg) {alert('message test ' + msg);};
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-            
-        
-        
         editable:true,
         selectable:true,
         contentWidth:300,

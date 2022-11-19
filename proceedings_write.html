@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href = "css/proceedings_write.css">
+        <script>
+            function check(document){
+            if(document.check=false){
+                document.style.backgroundColor='#F4E3D2'
+                document.style.color='#F4E3D2';
+                //선택 해제
+            }
+            document.style.backgroundColor='#FF8787';
+            document.style.color='white';
+        }
+        </script>       
+    </head>
+    <body>
+        <form>
+            <div id="buttondiv">
+            <input type="date" required></div>
+            <input class="button" type='button' onclick='window.close()' value='취소' id="cancelbtn" >
+            <input class="button" type='submit' value='저장' id="savebtn">
+            <h2>
+                <input type="text" class="text" placeholder="제목을 입력하세요" required>
+            </h2>
+        <div id="checkbtn">
+            <span>참여자</span>   
+            <input type="radio" class="btn-check" id="option1" autocomplete="off" style="display: none;">
+            <label class="btn" onclick="check(this)" id="button" for="option1">노윤하</label>
+
+            <input type="radio" class="btn-check" id="option2" autocomplete="off" style="display: none;">
+            <label class="btn" onclick="check(this)" id="button" for="option2">김서영</label>
+
+            <input type="radio" class="btn-check" id="option3" autocomplete="off" style="display: none;">
+            <label class="btn"onclick="check(this)" id="button"  for="option3">김진선</label>
+
+            <input type="radio" class="btn-check" id="option4" autocomplete="off" style="display: none;">
+            <label class="btn" onclick="check(this)" id="button" for="option4">이우현</label>
+        </div>
+        <hr>
+        <textarea cols="95" rows="20" required> </textarea>
+        </form> 
+    </body>
+</html>

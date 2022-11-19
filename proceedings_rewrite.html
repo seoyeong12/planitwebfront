@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html>
+    <head>        
+        <link rel="stylesheet" type="text/css" href = "css/proceedings_rewrite.css">
+        <script>
+            function check(document){
+            if(document.check=false){
+                document.style.backgroundColor='#F4E3D2'
+                document.style.color='#F4E3D2';
+                //선택 해제
+            }
+            document.style.backgroundColor='#FF8787';
+            document.style.color='white';
+        }
+        </script>        
+    </head>
     <body>
     <form>
-        <h4>
-            <input type="date" name="first_date"/>
-        </h4>
-
+        <div id="topdiv">
+        <div><div id="colorid"></div>
+        <span id="date">20220914</span></div></div>
+        <button class="button" id="cancelbtn" onclick="window.close()">취소</button>
+        <button type="submit" class="button" id="savebtn">저장</button>
         <h2>
-            <input type="text" placeholder="회의 제목"/>
-            <hr>
+            역할 분담
         </h2>
-        
+    <div id="checkbtn">
+        <span id="parti">참여자</span>                                             
+        <input type="radio" class="btn-check" id="option1" autocomplete="off" style="display: none;">
+        <label class="btn" onclick="check(this)" for="option1">노윤하</label>
 
-    참여자 <input type="checkbox" name="person" value="1">김진선
-    <input type="checkbox" name="person" value="2">김서영
-    <input type="checkbox" name="person" value="3">김수연
-    <input type="checkbox" name="person" value="4">노윤하
-    <input type="checkbox" name="person" value="5">이우현
-    <br><br>
+        <input type="radio" class="btn-check" id="option2" autocomplete="off" style="display: none;">
+        <label class="btn" onclick="check(this)" for="option2">김서영</label>
 
-    <textarea cols="30"rows="10"> </textarea>
-    <input type="reset"value="취소">
-    <button type="submit">전송</button>
+        <input type="radio" class="btn-check" id="option3" autocomplete="off" style="display: none;">
+        <label class="btn"onclick="check(this)" for="option3">김진선</label>
 
+        <input type="radio" class="btn-check" id="option4" autocomplete="off" style="display: none;">
+        <label class="btn" onclick="check(this)" for="option4">이우현</label>
+    </div>
+    <hr>
+    <textarea cols="160" rows="35"> </textarea>
     </form> 
     </body>
-
-    </bodystyle=>
 </html>

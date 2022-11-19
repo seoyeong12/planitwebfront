@@ -2,6 +2,10 @@
 <html>
 <head>
 <!-- fullcalender -->
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <FullCalendar @dateClick="handleDateClick" :plugins="calendarPlugins" />
 <link href='fullcalendar/lib/main.css' rel='stylesheet' />
 <link href="./bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -17,38 +21,33 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="display: unset !important;">
             <ul class="nav mr-auto">
                 <li class="nav-item">
-                    <a class="navbar-brand" href="#">Logo</a>
+                    <img src="./logo.png" id="logoimg">
+                </li>   
+                <li class="nav-item">
+                    <a class="nav-link text-lg-center mr-5 mt-1 text-md-left" href="./days.html" id="navtext"><h4>days</h4></a>        
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link text-dark" href="./days.html">Days</a>        
+                <a class="nav-item">
+                    <a class="nav-link mr-5 mt-1" href="./team" id="navtext"><h4>projects</h4></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="./team">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  text-dark" href="./calendar.html">Calendar</a>
+                    <a class="nav-link mt-1" href="./calendar.html" id="navtext"><h4>calendar</h4></a>
                 </li>
                 <li class="nav-item ml-auto" >
-                    <a class="nav-link id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="./2.jpg">
+                    <a class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="./profile.png" id="profileimg">
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu mt-4">
                         <li class="notification-box">
                             <div class="row">
-                                <div class="col-lg-3 col-sm-3 col-3 text-center">
-                                    <img src="./2.jpg" class="w-200 rounded-circle">
-                                </div>
-                                <div class="col-lg-8 col-sm-8 col-8">
-                                    <strong class="text-info text-dark">계정 정보</strong>
+                                <div class="ml-5">
+                                    <strong class="text-info text-dark" id="accountinfo">계정 정보</strong>
                                 </div>
                             </div>
                         </li>
                         <li class="notification-box">
                             <div class="row">
-                                <div class="col-lg-3 col-sm-3 col-3 text-center">                
-                                </div>
-                                <div class="col-lg-8 col-sm-8 col-8">
-                                    <strong class="text-info text-dark">로그아웃</strong>
+                                <div class="ml-5">
+                                    <button class="text-info text-dark">로그아웃</button>
                                 </div>
                             </div>
                         </li>
@@ -64,25 +63,19 @@
         </div>
         <div class="right">
             <div id="weekid">
-                <span>12/6 - 12/7</span>
+                <span id="weekspan">12/6 - 12/7</span>
                 <div>
-                    <div class="weekdaybox">
-                        <span id="weekdayid">Mon</span><br>
+                    <div class="weekdaybox" onmouseover="divmouseover()" onmouseout="divmouseout()">
+                        <div id="weekdayid">Mon
+                        <button id="deletebtn" onclick="deleteTask()" style="display: none;"><img src="./deletebutton.png"></button>
+                        <button id="pencilbtn" onclick="editTask()" style="display: none;"><img src="./pencilbutton.png"></button></div>
                         <div id="colorid"></div>
                             <span id="startid">17:00</span><span> - </span><span id="endid">19:00</span>
                             <span id="textid">약속1</span>
-                        
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    
-    
-        
-        
-    
-    
-
-</body>
-</html>
+        </div>    
+    </body>
+    </html>

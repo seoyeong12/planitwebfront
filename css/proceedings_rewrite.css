@@ -1,0 +1,110 @@
+body{
+    height: 90%;
+    margin-left: 450px;
+    padding: 85px;
+    color: #6B5D54;
+}
+#topdiv{
+    display: inline-block;
+    width: 188px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #FAF0E6;
+    font-size: 18px;
+    font-weight:600;
+    text-align: center;
+    filter: drop-shadow(1px 1px 5px #9F8473);
+    margin-bottom: 30px;
+}
+#colorid{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #FF8787;
+    margin-top: 12px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+h2{
+    font-size: 30px;
+    font-weight:500;
+    margin-bottom: 30px;
+}
+#date{
+    color:#6B5D54;
+}
+.button{
+    float:right; 
+    width: 63px;
+    height: 28px;
+    background-color: #FAF0E6;
+    border-radius: 20px;
+    border: 1px solid #E8CBB9;
+    font-size: 13px;
+    color:#6B5D54;
+    filter: drop-shadow(1px 1px 5px #9F8473);
+    margin-left: 25px;
+    position: relative;
+}
+#savebtn{
+    margin-right:15px;
+}
+#cancelbtn{
+    margin-right:200px;
+}
+#parti{
+    margin-right: 40px;
+}
+.btn{
+    width: 65px;
+    height: 28px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 0px;
+    background-color: #FAF0E6;
+    border-radius: 20px;
+    border: 1px solid #E8CBB9;
+    color:#6B5D54;
+    filter: drop-shadow(1px 1px 5px #9F8473);
+    margin-right: 10px;
+}
+#membericon{
+    display: inline-block;
+    width: 66px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #F4E3D2;
+    font-size: 15px;
+    color:#6B5D54;
+    text-align: center;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+hr{
+    background: #E8CBB9;
+    width: 1150px;
+    margin-right: 200px;
+    height:1px;
+    border:0px;
+    margin-top: 20px;
+}
+textarea{
+    border: 1px solid #E8CBB9;
+    margin-top: 5px;
+}
+#checkbtn{
+    margin-top: -10px;
+
+}
+textarea:focus{
+    outline: 1px solid #FF8787;
+}

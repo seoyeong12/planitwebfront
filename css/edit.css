@@ -1,28 +1,42 @@
 body{
     width: 421px;
     height: 424px;
+    color: #6B5D54;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid #6B5D54;
+}
+input:focus{
+    outline:1px solid #6B5D54;
 }
 #team{
-    margin-left: 42px;
+    margin-left: 30px;
 }
-#editbtn{
-    float:right; 
-    width: 26px;
-    height: 18px;
-    margin-right: 80px;
-    border-radius: 20px;
-    border: 0px;
+#single,#team{
+    accent-color: #BCE29E;
 }
-img{
-    width: 12px;
-    height: 13px;
-    margin-top: 2px;
+#teamSelect{
+    margin-left: 10px;
+    margin-top: -10px;
 }
-#savebtn{
+#sub_btn{
     margin-left: 142px;
     margin-right: 19px;
 }
-#savebtn,#cancelbtn{
+#date{
+    height: 25px;
+    width: 125px;
+    padding-right: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+
+}
+select{
+    width: 125px;
+    height: 25px;
+}
+#sub_btn,#cancel{
     width: 61px;
     height: 26px;
     padding-top: 5px;
@@ -33,7 +47,7 @@ img{
     border-radius:20px ;
     border: 0px;
 }
-#cancelbtn{
+#cancel{
     background-color: #FF8787;
 
 }

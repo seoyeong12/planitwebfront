@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href = "css/proceedings_detail.css">
+        <script src="js/proceedings_detail.js"></script>
+    </head>
     <body>
     <form>
-        <h6>
-            9월 26일
-            <input id='편집' type='button' onclick='newPage7()' value='편집'>
-        </h6>
-            
-
+        <div id="topdiv">
+        <div><div id="colorid"></div>
+        <span id="date">20220914</span></div></div>
+        <!-- <button class="btn" onclick="newPage7()">편집</button>
+        <button class="btn" onclick="newPage7()">삭제</button> -->
+        <div id="btndiv">
+        <input class="btn" type='button' onclick="editpage()" value='편집'>
+        <input class="btn" type='button' onclick="deletepage()" value='삭제'></div>
         <h2>
-            <input type="text" placeholder="회의 제목"/>
-            <hr>
+            역할 분담
         </h2>
-        
-
-    참여자:   김진선 노윤하 이우현 <br><br>
-
-    <textarea cols="30"rows="10"> </textarea>
+    <span id="parti">참여자</span>
+    <div id="membericon">김진선</div>
+    <br>
+    <hr>
+    <textarea cols="200"rows="45"> </textarea>
     </form> 
     </body>
 
-    </bodystyle=>
 </html>

@@ -1,4 +1,3 @@
-
 var b=function(msg) {alert('message test ' + msg);};
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
@@ -10,6 +9,7 @@ var b=function(msg) {alert('message test ' + msg);};
                 columnFormat: 'dddd' // set format for week here
             },
         },
+        
         editable:true,
         selectable:true,
         contentWidth:300,
@@ -52,7 +52,6 @@ var b=function(msg) {alert('message test ' + msg);};
             arg.event.remove()
             }
         }
-        
         });
         
         calendar.render();
@@ -60,3 +59,16 @@ var b=function(msg) {alert('message test ' + msg);};
             console.log('clicked on ' + info.dateStr);
         });
     }); 
+
+    function divmouseover(){
+        var debtn=document.getElementById("deletebtn");
+        var pebtn=document.getElementById("pencilbtn");
+        debtn.style.display="block"
+        pebtn.style.display="block"
+    }
+    function divmouseout(){
+        var debtn=document.getElementById("deletebtn");
+        var pebtn=document.getElementById("pencilbtn");
+        debtn.style.display="none"
+        pebtn.style.display="none"
+    }
