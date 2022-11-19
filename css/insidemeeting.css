@@ -1,17 +1,15 @@
 body,tbody{
-    width: 421px;
+    width: 500px;
     height: 424px;
+}
+table{
+    margin-left: 38px;
+    table-layout: fixed;
+    box-sizing: border-box;
 }
 tr{  
     height: 20px;
 }
-
-table{
-    width: 440px;
-    margin-left: 38px;
-    table-layout: fixed;
-}
-
 button{
     border-radius: 20px;
     border: 0px;
@@ -59,4 +57,7 @@ input[type="checkbox"] {
 hr{
     margin-top: 4px;
     width: 279px;
+    background:#BCE29E;
+    height:2px;
+    border:0;
 }
