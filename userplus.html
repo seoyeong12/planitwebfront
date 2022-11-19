@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="userplus.css">
+<script src="C:\software-team20\frontend\userplus.js"></script>
+
+<html>
+    <body>
+        <input type="textarea" id="teamname" placeholder="Team 이름을 먼저 입력해주세요.">
+        <input type="button" id='input-button' value="입력">
+
+        <input type="email" id="uplus" placeholder="example@gmail.com" class="size">
+        <button id='plus-button' onclick="input()">추가</button>
+            
+        <div class="list">
+            <text id="userplus-list">추가된 계정 목록</text>
+            <div class="personlist">
+                <textarea id="pl1">abc@gmail.com</textarea>
+                <input type="button" id="dbtn1" value="삭제">
+            </div>
+            <div class="personlist">
+                <textarea id="pl2">def@gmail.com</textarea>
+                <input type="button" id="dbtn2" value="삭제">
+            </div>
+            <div class="personlist">
+                <textarea id="pl3"></textarea>
+                <input type="button" id="dbtn3" value="삭제">
+            </div>
+            <div class="personlist">
+                <textarea id="pl4"></textarea>
+                <input type="button" id="dbtn4" value="삭제">
+            </div>
+
+            
+        </div>
+                
+        <input id='close-button' type='button' onclick='newPage3()' value='닫기'></input>
+
+    </body>
+</html>
