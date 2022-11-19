@@ -1,21 +1,8 @@
-#button{
-    width: 65px;
-    height: 28px;
-    border-radius: 20px;
-    background-color: #FAF0E6;
-    font-size: 10px;
-    text-align: center;
-    margin-left: 13px;
-    margin-top: 10px;
-    padding-top: 6px;
-    border: 0px;
-    color: #6B5D54;
-}
 body{
-    width: 70%;
+    
     height: 90%;
-    padding-left: 410px;
-    padding-top: 60px;
+    margin-left: 450px;
+    padding: 85px;
     color: #6B5D54;
 }
 #topdiv{
@@ -60,14 +47,29 @@ h2{
     filter: drop-shadow(1px 1px 5px #9F8473);
     margin-left: 25px;
 }
+#button{
+    width: 65px;
+    height: 28px;
+    border-radius: 20px;
+    background-color: #FAF0E6;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 0px;
+    color: #6B5D54;
+}
 #savebtn{
-    margin-right:-390px;
+    margin-right:15px;
 }
 #cancelbtn{
-    margin-right:-300px;
+    margin-right:200px;
 }
 .btn{
-    float:right; 
     width: 63px;
     height: 28px;
     background-color: #FAF0E6;
@@ -76,7 +78,7 @@ h2{
     font-size: 13px;
     color:#6B5D54;
     filter: drop-shadow(1px 1px 5px #9F8473);
-    margin-right: 25px;
+    margin-right: 10px;
 }
 #membericon{
     display: inline-block;
@@ -94,18 +96,19 @@ h2{
 }
 hr{
     background: #E8CBB9;
-    width: 1420px;
-    margin-right: 100px;
+    width: 1150px;
+    margin-right: 200px;
     height:1px;
     border:0px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 textarea{
     border: 1px solid #E8CBB9;
+    margin-top: 5px;
 }
 #checkbtn{
-    margin-top: -40px;
-    margin-right: 400px;
+    margin-top: -10px;
+
 }
 textarea:focus{
     outline: 1px solid #FF8787;

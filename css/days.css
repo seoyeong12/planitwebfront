@@ -7,7 +7,7 @@
     padding: 0px;
     margin-right: 25px;
 }
-img{
+#logoimg{
     width: 100px;
     height: 32px;
     margin-top: 13.5px;
@@ -75,7 +75,7 @@ div.right {
     padding-bottom: 22px;
     background-color: #F5F5F5;
     border-radius: 5px;
-    font-size: 20px;
+    font-size:medium;
 
 }
 #weekdayid{
@@ -101,10 +101,20 @@ div.right {
     width:59px;
     height:59px;
     margin-right: -13px;
-    margin-top: -8px;
     border: 0px;
 }
 #weekspan{
     font-size: 20px;
     font-weight: 500;
+}
+#deletebtn,#pencilbtn{
+    float: right;
+    background-color: #F5F5F5;
+    border: 0ch;
+}
+#pencilbtn{
+    margin-right: 5px;
+}
+#deletebtn{
+    margin-right: 30px;
 }

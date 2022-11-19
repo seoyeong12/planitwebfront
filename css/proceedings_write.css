@@ -1,14 +1,11 @@
 body{
     /* width: 70%;
     height: 90%; */
-    margin-left: 400px;
-    padding-top: 50px;
+    margin-left: 450px;
+    padding: 85px;
     color: #6B5D54;
     z-index: 2;
-}
-form{
-    width: 100%;
-    height: 100%;
+    position: absolute;
 }
 #buttondiv{
     display: inline-block;
@@ -25,7 +22,6 @@ form{
     padding-top: 9px;
     box-sizing: border-box;
     filter: drop-shadow(1px 1px 5px #9F8473);
-
 }
 input[type='date']{
     width: 70%;
@@ -86,10 +82,10 @@ h2{
     margin-left: 25px;
 }
 #savebtn{
-    margin-right:-390px;
+    margin-right:15px;
 }
 #cancelbtn{
-    margin-right:-300px;
+    margin-right:160px;
 }
 #button{
     width: 65px;
@@ -100,7 +96,10 @@ h2{
     text-align: center;
     margin-left: 13px;
     margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 6px;
+    padding-bottom: 6px;
     border: 0px;
     color: #6B5D54;
 }
@@ -118,7 +117,7 @@ h2{
 
 hr{
     background: #E8CBB9;
-    width: 1360px;
+    width: 1150px;
     margin-right: 100px;
     height:1px;
     border:0px;
@@ -126,7 +125,7 @@ hr{
 }
 textarea{
     border: 1px solid #E8CBB9;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 textarea:focus{
     outline: 1px solid #FF8787;
