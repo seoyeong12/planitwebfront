@@ -1,3 +1,3 @@
     function newPage6()  {
-        window.location.href = 'proceedings_write.html'}
+        window.location.href = 'proceedings_detail.html'}
     

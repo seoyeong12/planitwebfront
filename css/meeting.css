@@ -1,0 +1,113 @@
+body{
+    background-repeat : no-repeat;
+    background-size : 1900px 900px ;
+}
+#datebox{
+    width: 714px;
+    height: 60px;
+    border-radius: 10px;
+    border:3px solid #9F8473;
+    background-color:#F4E3CC ;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 458px;
+    margin-bottom: 125px;
+}
+#date{
+    margin-top: 15px;
+    width: 207px;
+    height: 29px;
+    background-color: #F5F5F5;
+    border-color: #B1B1B1;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#lbox{
+    position: absolute;
+    z-index: 3;
+    width: 30px;
+    height: 643.68px;
+    border-radius: 20px;
+    border: 0px;
+    rotate: 29.86deg;
+    background-color: #E5EBB2;
+    margin-left: 230.71px;
+    margin-bottom: 53.83px;
+}
+#makemeeting{
+    position: relative;    
+    z-index: 2;
+    width: 206px;
+    height: 87px;
+    border-radius: 150px;
+    border: 0px;
+    background-color: #E5EBB2;
+    text-align: center;
+    font-size: 46px;
+    -webkit-text-stroke: 1px #BCE29E;
+    float: right;
+    margin-right: 500px;
+}
+span{
+    color: #FFFFFF;
+}
+#tbox{
+    position: fixed;
+    width: 900px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #E5EBB2;;
+    margin-left: 390px;
+    margin-top: 40px;
+    float: center;
+    margin-bottom: 300px;
+}
+#dbox{
+    position: relative;
+    width: 1075.85px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #E5EBB2;;
+    margin-left: 200px;
+    margin-top: 515px;
+}
+#rbox{
+    position: relative;
+    width: 30px;
+    height: 355px;
+    border-radius: 20px;
+    border: 0px;
+    rotate: 180deg;
+    float: right;
+    background-color: #E5EBB2;
+    margin-top: 65px;
+    margin-right: -115px;
+}
+input[id="cb1"] + label{ 
+    position: absolute;
+    z-index: 1;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+    border-radius: 50px;
+	border: 7px solid #E5EBB2;
+    background-color: #FCFFE3;
+	cursor: pointer;
+    margin-top: 30px;
+    margin-left: 575px;
+}
+input[id="cb1"]:checked + label {
+	background-color: #BCE29E;
+}
+input[id="cb1"] {
+	display: none;
+}
+p{
+    margin-top: 90px;
+    margin-left: 575px;
+    position: absolute;
+}

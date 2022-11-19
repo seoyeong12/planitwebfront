@@ -18,12 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
           // 체크박스
             const checkbox = document.createElement('input')
             checkbox.type='checkbox'
+            checkbox.style.width="30px"
+
          // text
             const text = document.createElement('span');
           // 삭제하기 버튼
             const deleteButton = document.createElement('button')
             deleteButton.textContent="삭제"
             deleteButton.style.visibility="hidden"
+            deleteButton.style.border="1px solid #BCE29E";
+            deleteButton.style.borderRadius= "20px"
             text.textContent = input.value
             input.value=''
         
@@ -31,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             item.appendChild(text)
             item.appendChild(deleteButton)
             todoList.appendChild(item)
+
 
     // 체크박스 이벤트 리스너
             checkbox.addEventListener('change', (event) =>{ 

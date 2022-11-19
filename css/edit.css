@@ -1,0 +1,59 @@
+body{
+    width: 421px;
+    height: 424px;
+}
+#team{
+    margin-left: 42px;
+}
+#editbtn{
+    float:right; 
+    width: 26px;
+    height: 18px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border: 0px;
+}
+img{
+    width: 12px;
+    height: 13px;
+    margin-top: 2px;
+}
+#savebtn{
+    margin-left: 142px;
+    margin-right: 19px;
+}
+#savebtn,#cancelbtn{
+    width: 61px;
+    height: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 18px;
+    font-size: 13px;
+    border-radius:20px ;
+    border: 0px;
+}
+#cancelbtn{
+    background-color: #FF8787;
+
+}
+#center{
+    margin-top: 109px;
+    margin-left: 68px ;
+}
+#time1,#time2{
+    width: 120px;
+    height: 22px;
+    margin-top: 15px;
+}
+#title{
+    width: 273px;
+    height: 22px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 43px;
+}
+#titletext{
+    margin-top: 18px;
+    margin-bottom: 12px;
+}

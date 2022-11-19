@@ -1,0 +1,28 @@
+body,tbody{
+    width: 421px;
+    height: 424px;
+}
+tr{
+    
+    height: 30px;
+}
+
+table{
+    width: 440px;
+    margin-left: 38px;
+    table-layout: fixed;
+}
+
+button{
+    border-radius: 20px;
+    border: 0px;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+#cancelbtn{
+    margin-right: 40px;
+    margin-left: 9px;
+    background-color: #FF8787;
+    margin-bottom: 43px;
+}
